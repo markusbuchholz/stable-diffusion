@@ -37,13 +37,13 @@ stable-diffusion.cpp/models/
 
 ## Run
 
-### 1️⃣ Generate a text prompt with the local LLM (Gemma 3)
+1. Generate a text prompt with the local LLM (Gemma 3)
 
 ```bash
 PROMPT="$(ollama run gemma3:4b 'Write one detailed Stable Diffusion prompt about an underwater robot inspecting a pipeline at dusk, cinematic lighting, realistic textures.')"
 ```
 
-### Generate an image with Stable Diffusion
+2. Generate an image with Stable Diffusion
 
 ```bash
 cd stable-diffusion.cpp/build
